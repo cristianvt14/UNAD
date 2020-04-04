@@ -9,3 +9,56 @@ body{
 	font-family: "Montserrat", Sans-serif;
 	font-size: 16px;
 }
+
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header .contenedor-logo-menu{
+	margin: 0 auto;
+	text-align: center;
+}
+
+header .contenedor-logo-menu .logo{
+    padding: 10px 0px;
+}
+
+header .contenedor-logo-menu .menu{
+	background-color: #1565c0;
+	padding: 10px;
+}
+
+header .contenedor-logo-menu .menu a{
+    margin: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 6px;
+    font-size: 18px;
+}
+
+header .contenedor-texto{
+	display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    background: url('../img/banner1.jpg') #006064;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center 0;
+    height: 350px;
+}
+
+header .contenedor-texto .texto{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin-top: 90px;
+}
+
+header .contenedor-texto .texto .texto1{
+	font-size: 50px;
+	font-weight: 800;
+}
