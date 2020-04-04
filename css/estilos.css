@@ -62,3 +62,20 @@ header .contenedor-texto .texto .texto1{
 	font-size: 50px;
 	font-weight: 800;
 }
+
+.main {
+    background: url('../img/bg-textura.png');
+    background-repeat: repeat;
+}
+
+.main .descripcion{
+	text-align: justify;
+}
+
+.main .descripcion .titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #1565c0;
+}
