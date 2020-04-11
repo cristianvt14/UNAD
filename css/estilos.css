@@ -178,7 +178,6 @@ footer .copyright .txt-copyright{
     color: #fff;
 }
 
-
 .main .lecturas{
 	text-align: justify;
 }
@@ -195,4 +194,68 @@ footer .copyright .txt-copyright{
     max-width: 200px;
     display: block;
     margin: auto;
+}
+
+.main .videos{
+	text-align: center;
+}
+
+.main .videos .titulo{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1565c0;
+}
+
+.main .autor .contenedor-tarjeta{
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .contenedor-tarjeta .tarjeta{
+    background: #fff;
+    display: flex;
+    max-width: 600px;
+    box-shadow: 1px 1px 4px 2px rgba(0,0,0,.2);
+}
+
+.main .tarjeta .tarjeta1{
+    border-right: 1px solid #ddd;
+}
+
+.main .tarjeta .tarjeta2{
+    background: #fbfbfb;
+}
+
+.main .tarjeta .tarjeta1, .main .tarjeta .tarjeta2{
+    padding: 20px;
+    text-align: center;
+}
+
+.main .tarjeta .tarjeta1 a{
+    position: relative;
+    display: block;
+}
+
+.main .tarjeta .tarjeta1 a img{
+    border-radius: 50%;
+    max-width: 130px;
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.06);
+}
+
+.main .tarjeta .tarjeta1 .nombre{
+    color: #004669;
+    font-size: 22px;;
+}
+
+.main .tarjeta .tarjeta2 .titulo{
+    color: #004669;
+    font-size: 18px;
+}
+
+.main .tarjeta .tarjeta2 p{
+    margin: 30px 10px;
 }
